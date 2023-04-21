@@ -20,4 +20,9 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++ ) {
         tecla.classList.add('ativa')
     }
     
+    // evento de quando o usuario solta a tecla
+    tecla.onkeyup = function(){
+        tecla.classList.remove('ativa');
+    }
 }
+        
