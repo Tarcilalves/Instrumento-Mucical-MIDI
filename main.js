@@ -7,7 +7,9 @@ let contador=0;
 
 // enquanto
 while (contador < 9) {
-    listaDeTeclas[contador].onclick=tocaSom;
+    listaDeTeclas[contador].onclick=function(){
+        tocaSom('#som_tecla_pom');
+    }
     contador = contador + 1;
 
     console.log(contador);
