@@ -1,7 +1,7 @@
 :root {
   --cinza: #aaa;
   --vermelha: #e93d50;
-  --vermelha-escura: #af303f;
+  --vermelha-escura: #bb2a3b;
   --branca: #fff;
   --luz: rgb(229, 255, 0);
 }
@@ -65,3 +65,4 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
+
