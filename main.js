@@ -17,10 +17,8 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++ ) {
     
     //evento que representa o momento que uma tecla é precionada
     tecla.onkeydown = function (evento){
-
-        console.log(evento.code === 'Space');
-
-        if(evento.code === 'Space'){
+      
+        if(evento.code === 'Space' || evento.code === 'Enter'){
             tecla.classList.add('ativa')
         }
         
@@ -30,5 +28,6 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++ ) {
     tecla.onkeyup = function(){
         tecla.classList.remove('ativa');
     }
+    
 }
         
