@@ -1,7 +1,7 @@
 :root {
   --cinza: #aaa;
   --vermelha: #e93d50;
-  --vermelha-escura: #af303f;
+  --vermelha-escura: #bb2a3b;
   --branca: #fff;
   --luz: rgb(229, 255, 0);
 }
@@ -46,6 +46,8 @@ h1 {
   width: 120px;
 }
 
+/* Aqui está o estilo para alterar o estado do botão 
+para quando o usuário estiver apertando o botão */
 .tecla.ativa,
 .tecla:active {
   background-color: var(--vermelha);
@@ -65,3 +67,4 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
+
