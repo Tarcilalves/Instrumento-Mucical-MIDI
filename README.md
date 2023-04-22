@@ -40,7 +40,7 @@ https://user-images.githubusercontent.com/107896645/233754311-3c7b3390-b367-4cdb
 
 # Acesso ao projeto
 
->:open_file_folder:
+> :open_file_folder: Acesse meu projeto [aqui](https://tarcilalves.github.io/Instrumento-Mucical-MIDI)
 
 # Tecnologias utilizadas
 
